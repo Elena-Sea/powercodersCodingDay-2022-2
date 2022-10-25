@@ -1,9 +1,13 @@
+
+
 h1 {
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 }
 
 .robots {
+	display: flex;
+	/* margin: 0 auto; */
 }
 
 .head, 
@@ -24,7 +28,7 @@ h1 {
 } 
 
 .eyes {
-	
+		display: flex;
 }
 
 .upper_body { 
@@ -54,6 +58,7 @@ h1 {
 } 
 
 .lower_body { 
+	display: flex;
 	width: 200px; 
 	height: 200px;
 	/* This is another useful property. Hmm what do you think it does?*/
@@ -88,19 +93,19 @@ h1 {
 	height: 20px; 
 	border-radius: 15px; 
 	background-color: white;  
+
+	position: relative;
+	top: 100px;
 } 
 
 .left_eye { 
 	/* These properties are new and you haven't encountered
 	in this course. Check out CSS Tricks to see what it does! */
-	position: relative; 
-	top: 100px; 
+	/* I've organised repeated properties to general code */
 	left: 40px; 
 } 
 
 .right_eye { 
-	position: relative; 
-	top: 100px; 
 	left: 120px; 
 }
 
